@@ -20,7 +20,7 @@ function read(e){
     li.id='list-mem'
     span.appendChild(document.createTextNode(new_date));
     li.appendChild(span);
-    count++;
+    
     if(newN===''){
        if ( confirm("enter without description?")){
        
