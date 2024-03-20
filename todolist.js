@@ -1,4 +1,4 @@
-var count=0;
+
 var list=document.getElementById('list');
 var addform=document.querySelector('#addform');
 var clear=document.getElementById('clear');
@@ -60,11 +60,7 @@ function delete1(e){
 }
 function delete2(e){
     if(confirm('pakka sure?')){
-        for(let i=1;i<=count;i++){
-            var li=document.getElementById('list-mem');
-            li.remove();
-            
-        }
+    list.innerHTML=' ';
     }
 
 }
